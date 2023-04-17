@@ -12,5 +12,5 @@ sleep 5
 VBoxManage starvm "vm_b" --type separate
 
 sleep 5
-VBoxManage controlvm "vm_a" teleport --host "IP_LOCAL" --port 8080 --password password
+VBoxManage controlvm "vm_a" teleport --host "179.6.14.248" --port 8080 --password password
 
